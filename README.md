@@ -7,7 +7,15 @@ Esta clase busca simplificar la utilizacion de un sistema de ruteo en aplicacion
 para aquellos que no les gusta utilizar frameworks o que les parece que estos tienen demasiadas 
 cosas que no se utilizan todas.
 
-#El Siguiente es un ejemplo de como se utiliza.
+actualmente puede recibir y procesar la ruta de dos formas, la primera es una forma sencilla
+y la segunda es agrupanto un grupo de rutas bajo un namespace determinado, y su procesamiento 
+tambien tiene dos formas de utilizar, la primera mediante callback y la segunda procesando la 
+peticion en una clase que actual como controllador.
+
+en el ejemplo se muestran las diferentes formas.
+
+
+# El Siguiente es un ejemplo de como se utiliza.
 
 ~~~~
 <?php
